@@ -2,14 +2,14 @@
 <#@ output extension=".cs" #>
 <#@ assembly name="System.Core" #>
 <# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>
-<#@ assembly name="$(SolutionDir)packages\Rainbow.Core.2.0.0\lib\net452\Rainbow.dll" #>
-<#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.2.0.0\lib\net452\Rainbow.Storage.Yaml.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Core.2.1.1\lib\net452\Rainbow.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.2.1.1\lib\net452\Rainbow.Storage.Yaml.dll" #>
 <#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.3.0\lib\net452\RainbowCodeGeneration.dll" #>
-<# // NOTE - Reference your Sitecore.Kernel.dll and Sitecore.Logging.dll here - for Sitecore 9, also add Microsoft.Extensions.DependencyInjection 1.0.0 via NuGet and enable the reference below #>
-<#@ assembly name="$(SolutionDir)packages\Sitecore.Kernel.NoReferences.8.2.160729\lib\net452\Sitecore.Kernel.dll" #>
-<#@ assembly name="$(SolutionDir)packages\Sitecore.Logging.NoReferences.8.2.160729\lib\net452\Sitecore.Logging.dll" #>
-<# // For Sitecore 9: @ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" #>
-<# // For Sitecore 9: @ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.1.0.0\lib\netstandard1.1\Microsoft.Extensions.DependencyInjection.dll" #>
+<# // NOTE - Reference your Sitecore.Kernel.dll and Sitecore.Logging.dll here - for Sitecore 9.3, also add Microsoft.Extensions.DependencyInjection 1.0.0 via NuGet and enable the reference below #>
+<#@ assembly name="$(SolutionDir)packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Sitecore.Logging.9.3.0\lib\net471\Sitecore.Logging.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.3.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll" #>
 <# 
 // CONFIGURATION
 var physicalFileStore = @"..\serialization"; // the path to your serialisation items

@@ -2,20 +2,21 @@
 <package >
     <metadata>
         <id>RainbowCodeGeneration</id>
-        <version>0.3</version>
+        <version>9.3</version>
         <title>RainbowCodeGeneration</title>
-        <authors>Heiko Franz</authors>
-        <owners>Heiko Franz</owners>
+        <authors>Heiko Franz, Christian Fahrner</authors>
+        <owners>Heiko Franz, Christian Fahrner</owners>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/heikof/RainbowCodeGeneration</projectUrl>
+        <projectUrl>https://github.com/ChristianFahrner/RainbowCodeGeneration</projectUrl>
         <!--TODO <iconUrl></iconUrl>-->
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <summary>Code generation for Unicorn / Rainbow - a serialisation tool for Sitecore</summary>
         <description>A simple set of utility classes and a sample T4 template that allow easy code generation for Sitecore templates from Rainbow / Unicorn serialized items. Currently, only the YAML serialization format is supported. </description>
-        <copyright>Copyright 2016-2017</copyright>
+        <copyright>Copyright 2016-2019</copyright>
         <tags>rainbow unicorn sitecore serialization serialisation codegeneration</tags>
         <dependencies>
-            <dependency id="Rainbow.Storage.Yaml" version="1.4.1" />            
+            <dependency id="Rainbow.Storage.Yaml" version="2.1.1" />
+            <dependency id="Sitecore.Kernel.Yaml" version="9.3.0" />
         </dependencies>
     </metadata>
 </package>
