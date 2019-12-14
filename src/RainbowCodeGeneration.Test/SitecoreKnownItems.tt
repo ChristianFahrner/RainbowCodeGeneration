@@ -4,10 +4,11 @@
 <# // NOTE - Reference your NuGet packages for Rainbow and RainbowCodeGeneration here #>
 <#@ assembly name="$(SolutionDir)packages\Rainbow.Core.2.1.1\lib\net452\Rainbow.dll" #>
 <#@ assembly name="$(SolutionDir)packages\Rainbow.Storage.Yaml.2.1.1\lib\net452\Rainbow.Storage.Yaml.dll" #>
-<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.0.3.0\lib\net452\RainbowCodeGeneration.dll" #>
+<#@ assembly name="$(SolutionDir)packages\RainbowCodeGeneration.9.3.0\lib\net48\RainbowCodeGeneration.dll" #>
 <# // NOTE - Reference your Sitecore.Kernel.dll and Sitecore.Logging.dll here - for Sitecore 9.3, also add Microsoft.Extensions.DependencyInjection 1.0.0 via NuGet and enable the reference below #>
 <#@ assembly name="$(SolutionDir)packages\Sitecore.Kernel.9.3.0\lib\net471\Sitecore.Kernel.dll" #>
 <#@ assembly name="$(SolutionDir)packages\Sitecore.Logging.9.3.0\lib\net471\Sitecore.Logging.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll" #>
 <#@ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" #>
 <#@ assembly name="$(SolutionDir)packages\Microsoft.Extensions.DependencyInjection.3.1.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.dll" #>
 <# 
